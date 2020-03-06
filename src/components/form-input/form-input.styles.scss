@@ -1,0 +1,17 @@
+.group {
+  //margin: 10px 0;
+  margin-bottom: 20px;
+  label {
+    height: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .form-input {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: lightgray;
+    border: none;
+  }
+}

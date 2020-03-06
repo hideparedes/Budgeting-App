@@ -1,0 +1,19 @@
+.history-container {
+  //border: 1px solid black;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 30vw;
+
+  .history {
+    padding-left: 0;
+    overflow: scroll;
+    -ms-overflow-style: none;
+  }
+
+  .history::-webkit-scrollbar {
+    display: none;
+  }
+}
