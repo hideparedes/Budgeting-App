@@ -4,7 +4,7 @@ import "./header.styles.scss";
 const Header = () => {
   return (
     <nav>
-      <h1>Expense Tracker</h1>
+      <h1>CountMyMoney</h1>
     </nav>
   );
 };
